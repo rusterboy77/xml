@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tv>
+    <!-- channel id tiene que ser igual que tvg-id en la lista m3u -->
+    <channel id="La_sirenita_2023">
+        <!-- display-name l nombre que quieres que muestre en debajo del título de la película -->
+        <display-name lang="es">La sirenita (2023)</display-name>
+    </channel>
+    <channel id="Oso_Vicioso">
+        <display-name lang="es">One Piece (2023)</display-name>
+    </channel>
+    <channel id="El_clon_de_Tyrone">
+        <display-name lang="es">El clon de Tyrone (2023)</display-name>
+    </channel>
+    <channel id="Ahsoka_S01E01">
+        <display-name lang="es">Ahsoka - Parte 1: Maestro y aprendiz.</display-name>
+    </channel>
+
+
+    <!-- channel debe ser el mismo valor que en channel id (más arriba) y tvg-id en la lista m3u -->
+    <programme channel="La_sirenita_2023" start="20000101000000 +0100" stop="30000101000000 +0100">
+        <title lang="es">La sirenita (2023)</title>
+        <!-- en desc se pone la sinopsis de la película" -->
+        <desc lang="es">★★★☆☆|<2023 |(+12) |Estados Unidos| Películas, Aventura.
+            
+Ariel es una joven y soñadora sirena, hija del Rey Tritón, que está cansada de su vida como princesa bajo el mar. Su mayor deseo es abandonar el fondo marino y tener una vida normal y apacible en la superficie. La bruja Úrsula descubre su anhelo y, por eso, a cambio de su preciosa voz le ofrece un cuerpo totalmente humano. Ariel acepta, movida por su pasión por conocer el mundo terrestre y porque está enamorada de un apuesto príncipe humano. Pero las cosas no serán fáciles para Ariel, ya que la bruja Úrsula esconde oscuras intenciones.
+
+Dir: Rob Marshall
+Act: Halle Bailey, Jonah Hauer-King, Daveed Diggs, Awkwafina, Jacob Tremblay.
+        </desc>
+        <!-- en categorías pones los géneros de cada película -->
+        <category lang="es">Aventura</category>
+        <category lang="es">Familia</category>
+        <category lang="es">Fantasía</category>
+        <category lang="es">Romance</category>
+        <!-- en icon la foto de película -->
+        <icon src="https://image.tmdb.org/t/p/original/mdszPVnIY7cWgbgJ8zbwu1PiU5V.jpg"/>
+        <star-rating system="ES">
+            <value>★★★☆☆</value>
+        </star-rating>
+        <review type="text">Ratings: 12.</review>
+    </programme>
+    <programme channel="Oso_Vicioso" start="20000101000000 +0100" stop="30000101000000 +0100">
+        <title lang="es">Oso vicioso (2023)</title>
+        <desc lang="es">Inspirado en hechos reales ocurridos en Kentucky en 1985, durante los cuales un oso negro de 175 libras ingirió 88 libras de cocaína pura.
+        </desc>
+        <category lang="es">Suspense</category>
+        <category lang="es">Comedia</category>
+        <category lang="es">Crimen</category>
+        <icon src="https://image.tmdb.org/t/p/original/yGCpehozPDlaczL4Fas1d01mfAH.jpg"/>
+    </programme>
+    <programme channel="El_clon_de_Tyrone" start="20000101000000 +0100" stop="30000101000000 +0100">
+        <title lang="es">El clon de Tyrone (2023)</title>
+        <desc lang="es">Unos sucesos inquietantes en el barrio mueven a un peculiar trío a investigar una conspiración muy siniestra.
+        </desc>
+        <category lang="es">Comedia</category>
+        <category lange="es">Ciencia ficción</category>
+        <category lange="es">Misterio</category>
+        <icon src="https://image.tmdb.org/t/p/original/38dnJYc0JhXXigsycjZZCU8VsRF.jpg"/>
+    </programme>
+
+
+
+
+    <programme channel="Ahsoka_S01E01" start="20000101000000 +0100" stop="30000101000000 +0100">
+        <title lang="es">Ahsoka - Parte 1: Maestro y aprendiz.</title>
+        <desc lang="es">S1 E01 |2023| +12 |EEUU| Series, Acción.
+Un valioso prisionero escapa de la custodia de la Nueva República. Una búsqueda de respuestas reúne a dos viejos amigos.
+
+Dir: Dave Filoni
+Act: Rosario Dawson, Natasha Liu Bordizzo, Mary Elizabeth Winstead, Ray Stevenson, Ivanna Sakhno,Diana Lee Inosanto,David Tennant.</desc>
+        <category lang="en">Sci-Fi</category>
+        <category lang="en">Fantasy</category>
+        <category lang="en">Action</category>
+        <category lang="en">Adventure</category>
+        <icon src="https://image.tmdb.org/t/p/original/i29R3K7YgLQvBFtTkMAI7zQ9bHi.jpg"/>
+        <country lang="es">EEUU</country>
+        <episode-num system="onscreen">S1 E01</episode-num>
+        <review type="text">Ratings: 12.</review>
+    </programme>
+</tv>
